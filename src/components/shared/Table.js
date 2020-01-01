@@ -126,7 +126,8 @@ function Table({ columns, data }) {
 
   return (
     <>
-    <h3 class="text-center text-primary">Data Grid using React</h3>
+    <h3 class="text-center text-primary">Data Grid using React</h3> 
+    <h3><a href="https://github.com/sandeepjadhav/react-table-demo" target="_blank">Click here to get code</a></h3>
       <table {...getTableProps()} className="table table-bordered">
         <thead>
           {headerGroups.map(headerGroup => (
